@@ -1,0 +1,17 @@
+
+.carouselImg{
+    height: 350px;
+    object-fit: cover;
+}
+h1{
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin: 2rem 0;
+    top: 310px;
+    right: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
