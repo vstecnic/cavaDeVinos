@@ -10,6 +10,7 @@ body{
     object-fit: cover;
 }
 h1{
+
     position: absolute;
     font-size: 5rem;
     font-weight: 700;
@@ -21,7 +22,11 @@ h1{
     color: white;
     text-shadow: 2px 2px 2px black;
 }
-h2, footer{
+h2{
+  padding-top:120px ;
+  color: grey;
+}
+footer{
     background-color: black;
     color: grey;
     padding: 0%;
