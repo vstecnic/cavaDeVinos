@@ -37,10 +37,14 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 ">              
+            <ul class="navbar-nav me-auto mb-2">
               <li class="nav-item">
-                <a class="nav-link" href="./assets/pages/espumantes.html">Espumantes</a>
-                <a class="nav-link" href="./assets/pages/blancos.html">Blancos</a>
+                <a class="nav-link" href="./assets/pages/espumantes.html"
+                  >Espumantes</a
+                >
+                <a class="nav-link" href="./assets/pages/blancos.html"
+                  >Blancos</a
+                >
                 <a class="nav-link" href="./assets/pages/tintos.html">Tintos</a>
               </li>
             </ul>
@@ -83,56 +87,56 @@
     </header>
     <main class="container py-3">
       <h2 class="text-center">Menú de Vinos</h2>
-      <div
-        id="carouselExampleFade"
-        class="carousel slide carousel-fade text-center justify-content-center"
-      >
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
         <div class="carousel-inner">
-          <div class="carousel-item active tex">
-            <div class="card" style="width: 18rem">
-              <a href="./assets/pages/espumantes.html">
-                <img
-                  src="./assets/img/cards/espumante.jpeg"
-                  class="card-img-top"
-                  alt="espumantes"
-              /></a>
-              <div class="card-body">
-                <p class="card-text">Espumantes</p>
-              </div>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <a href="./assets/pages/espumantes.html"><img src="./assets/img/carousel/espumantes.png" class="d-block w-100" alt="espumantes" /></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vinos Espumantes</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="./assets/pages/blancos.html"><img src="./assets/img/carousel/blancos.png" class="d-block w-100" alt="blancos" /></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vinos Blancos</h5>
+              
             </div>
           </div>
           <div class="carousel-item">
-            <div class="card" style="width: 18rem">
-              <a href="./assets/pages/blancos.html">
-                <img
-                  src="./assets/img/cards/blanco.jpeg"
-                  class="card-img-top"
-                  alt="blancos"
-              /></a>
-
-              <div class="card-body">
-                <p class="card-text">Blancos</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card" style="width: 18rem">
-              <a href="./assets/pages/tintos.html"
-                ><img
-                  src="./assets/img/cards/tinto.jpeg"
-                  class="card-img-top"
-                  alt="tintos"
-              /></a>
-              <div class="card-body">
-                <p class="card-text">Tintos</p>
-              </div>
+            <a href="./assets/pages/tintos.html"><img src="./assets/img/carousel/tintos.png" class="d-block w-100" alt="tintos" /></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vinos Tintos</h5>
+              
             </div>
           </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleFade"
+          data-bs-target="#carouselExampleDark"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -141,13 +145,15 @@
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleFade"
+          data-bs-target="#carouselExampleDark"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      
     </main>
 
     <footer>

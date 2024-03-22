@@ -9,6 +9,11 @@ body{
     height: 350px;
     object-fit: cover;
 }
+.carousel-item {
+background-color: white;
+justify-items: center;
+justify-content: center;}
+
 h1{
 
     position: absolute;
