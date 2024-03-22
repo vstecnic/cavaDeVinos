@@ -5,6 +5,9 @@ body{
 .nav-link{
     color: antiquewhite;
 }
+.navbar-toggler-icon{
+    color: azure !important;
+}
 .carouselImg{
     height: 350px;
     object-fit: cover;
